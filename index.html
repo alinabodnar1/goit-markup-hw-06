@@ -50,7 +50,7 @@
                 <div class="container">
                     <h1 class="hero-title">Ефективні рішення для 
                        вашого бізнесу</h1>
-                    <button data-modal-open type="button" class="main-button">Замовити послугу</button>
+                    <button data-modal-open type="button" class="main-button common-button">Замовити послугу</button>
                 </div>
             </section>
         <!--Features-->
@@ -386,7 +386,7 @@
                     <form class="subscribe-email" name="user-subscribe">
                         <label for="subscribe"></label>
                         <input id="subscribe" type="email" name="user-subscribe" class="subscribe-input" placeholder="E-mail"/>
-                        <button type="submit" class="subscribe-button">Підписатися
+                        <button type="submit" class="subscribe-button common-button">Підписатися
                             <svg class="icon-send" width="24" height="24">
                                 <use href="./images/icons.svg#icon-send"></use>
                             </svg>
@@ -408,26 +408,36 @@
     
             <form class="modal-form" name="user-contacts">
                 <b class="welcome">Залиште свої дані, ми вам передзвонимо</b>
+                
                 <div class="form-field">
                     <label for="name" class="field-label">Ім'я</label>
-                    <input class="field-input" id="name" name="user-name" type="text"/>
-                    <svg class="icon">
-                        <use href="./images/icons.svg#icon-person"></use>
-                    </svg>
+                    <div class="input-wrapper">
+                        <input class="field-input" id="name" name="user-name" type="text" />
+                        <svg class="icon">
+                            <use href="./images/icons.svg#icon-person"></use>
+                        </svg>
+                    </div>
                 </div>
+
                 <div class="form-field">
                     <label for="tel" class="field-label">Телефон</label>
-                    <input class="field-input" id="tel" name="user-tel" type="tel"/>
-                    <svg class="icon">
-                        <use href="./images/icons.svg#icon-phone"></use>
-                    </svg>
+                    <div class="input-wrapper">
+                        <input class="field-input" id="tel" name="user-tel" type="tel" />
+                        <svg class="icon">
+                            <use href="./images/icons.svg#icon-phone"></use>
+                        </svg>
+                    </div>
+                    
                 </div>
                 <div class="form-field">
                     <label for="email" class="field-label">Пошта</label>
-                    <input class="field-input" id="email" name="user-email" type="email"/>
-                    <svg class="icon">
-                        <use href="./images/icons.svg#icon-email"></use>
-                    </svg>
+                    <div class="input-wrapper">
+                        <input class="field-input" id="email" name="user-email" type="email" />
+                        <svg class="icon">
+                            <use href="./images/icons.svg#icon-email"></use>
+                        </svg>
+                    </div>
+                    
                 </div>
                 <div class="form-field">
                     <label for="feedback" class="field-label">Коментар</label>
@@ -448,7 +458,7 @@
                         </span>
                     </label>
                 </div>
-                <button type="submit" class="form-button">Відправити</button>
+                <button type="submit" class="form-button common-button">Відправити</button>
             </form>
         </div>
     </div>
